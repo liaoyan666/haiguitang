@@ -1,0 +1,42 @@
+package com.example.haiguitang.entity;
+
+import com.baomidou.mybatisplus.annotation.*;
+import lombok.Data;
+
+import java.time.LocalDateTime;
+
+/**
+ * 游戏记录
+ */
+@Data
+@TableName("game_record")
+public class GameRecord {
+
+    @TableId(type = IdType.AUTO)
+    private Long id;
+
+    /** 房间ID */
+    private String roomId;
+
+    /** 故事ID，关联 soup_story 表 */
+    private Long storyId;
+
+    /** 玩家ID（微信openid） */
+    private String playerId;
+
+    /** 玩家昵称 */
+    private String playerName;
+
+    /** 消息内容 */
+    private String message;
+
+    /** 消息角色：player / host */
+    private String role;
+
+    /** 提问轮次 */
+    private Integer turnNumber;
+
+    /** 创建时间 */
+    @TableField(fill = FieldFill.INSERT)
+    private LocalDateTime createTime;
+}
