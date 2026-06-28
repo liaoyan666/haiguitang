@@ -15,7 +15,7 @@ public class GameRecord {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    /** 房间ID */
+    /** 房间ID 666666*/
     private String roomId;
 
     /** 故事ID，关联 soup_story 表 */
