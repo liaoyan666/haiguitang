@@ -15,7 +15,7 @@ public class RoomPlayer {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    /** 房间ID */
+    /** 666房间ID */
     private String roomId;
 
     /** 玩家ID（微信openid） */
