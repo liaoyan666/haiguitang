@@ -27,7 +27,7 @@ public class GameRoom {
     /** 当前轮到哪个玩家提问（playerId） */
     private String currentTurnPlayerId;
 
-    /** 当前提问轮次 */
+    /** 51515151当前提问轮次 */
     private Integer currentTurn;
 
     /** 最大提问次数 */
