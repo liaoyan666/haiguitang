@@ -15,7 +15,7 @@ public class GameRecord {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    /** 房间ID 666666*/
+    /** 房间ID 66666hsasfsaf6*/
     private String roomId;
 
     /** 故事ID，关联 soup_story 表 */
@@ -24,16 +24,16 @@ public class GameRecord {
     /** 玩家ID（微信openid） */
     private String playerId;
 
-    /** 玩家昵称 */
+    /** 玩家昵称123 */
     private String playerName;
 
-    /** 消息内容 */
+    /** 消息内容345 */
     private String message;
 
     /** 消息角色：player / host */
     private String role;
 
-    /** 提问轮次 */
+    /** 提问轮次 333*/
     private Integer turnNumber;
 
     /** 创建时间 */
