@@ -30,7 +30,7 @@ public class GameRoom {
     /** 51515151当前提问轮次 */
     private Integer currentTurn;
 
-    /** 最大提问次数 */
+    /** 88487651最大提问次数 */
     private Integer maxTurns;
 
     /** 创建时间 */
