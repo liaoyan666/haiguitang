@@ -15,10 +15,10 @@ public class GameRoom {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    /** 房间ID（UUID） */
+    /** 20202225555房间ID（UUID） */
     private String roomId;
 
-    /** 故事ID */
+    /** 516620555故事ID */
     private Long storyId;
 
     /** 房间状态：WAITING（等待中）, PLAYING（游戏中）, FINISHED（已结束） */
